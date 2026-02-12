@@ -22,16 +22,19 @@ body{
 	margin:10px;
 	border-radius:5px;
 	width:150px;
-	box-sizing:cover;
+
 	height:150px;
 }
 .pictorial-news-section{
 	border: 1px solid white ;
 	background-color:white;
 	padding:10px;
-	margin:0px;
+	margin:10px;
 	width:300px;
 	border-radius:5px;
+	display:grid;
+	justify-content:center;
+	align-content:center;
 }
 .second{
 	border: 1px solid white ;
@@ -40,6 +43,10 @@ body{
 	margin:10px;
 	width:400px;
 	border-radius:5px;
+	display:grid;
+	justify-items:center;
+	height:180px;
+	gap:0px;
 }
 img{
 	width:200px
